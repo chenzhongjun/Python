@@ -1,6 +1,5 @@
 import re
 
-
 class Password:
     uppercase = re.compile(r'[A-Z]+')
     lowercase = re.compile(r'[a-z]+')
